@@ -1,1 +1,2 @@
 # zerk-script
+.

@@ -1,5 +1,3 @@
-/* SCRIPT BY YOUR MOM*/
-
 'use strict'
 const JOB_ZERK =3;
 
@@ -1481,7 +1479,7 @@ module.exports = function zerk(dispatch) {
 		}
 	});
 
-	dispatch.hook('S_EACH_SKILL_RESULT', 14, (event) => {
+	dispatch.hook('S_EACH_SKILL_RESULT', 15, (event) => {
 		if (event.target === cid) {
 			if (event.reaction.enable == true) {
 				lastSkill =1;
@@ -3788,7 +3786,7 @@ module.exports = function zerk(dispatch) {
 	});
 
 
-	dispatch.hook('S_PLAYER_STAT_UPDATE', 16, (event) => {
+	dispatch.hook('S_PLAYER_STAT_UPDATE', 17, (event) => {
 		aspd = (event.attackSpeed + event.attackSpeedBonus) / event.attackSpeed;
 		if (event.hp ==0) {
 			zerkzerk = false;

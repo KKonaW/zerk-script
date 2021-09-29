@@ -1,5 +1,5 @@
 {
-	"GLOBAL_LATENCY": 0,
+	"GLOBAL_LATENCY": 1,
 	"GLOBAL_LATENCY_DESCRIPTION": "change GLOBAL_LATENCY to your lowest usual ping",
 	"DISABLE_CHARGE": false,
 	"DISABLE_CHARGE_DESCRIPTION": "this will disable charge bar emulation, useful for people who have unstable net and prone to get stuck or server lagging badly",
@@ -52,7 +52,7 @@
 	"KEY_AFTER_BEAST_FURY_DESCRIPTION": "Immediately attempt to use X after beast fury.",
 	"KEY_AFTER_BEAST_FURY_DELAY": 200,
 	"KEY_AFTER_BEAST_FURY_DELAY_DESCRIPTION": "Delay between beast fury and X start.",
-	"KEY_X": "6",
+	"KEY_X": "f8",
 	"KEY_X_DESCRIPTION": "The key of the skill you want to use after beast fury (should be dexter), find keyboard syntax list here http://robotjs.io/docs/syntax",
 	"AUTO_ATTACK_CANCEL": true,
 	"AUTO_ATTACK_CANCEL_DESCRIPTION": "Auto block cancel auto attack, requires robotjs.",

@@ -1,3 +1,4 @@
+/* SCRIPT BY YOUR MOM */
 'use strict'
 const JOB_ZERK =3;
 
